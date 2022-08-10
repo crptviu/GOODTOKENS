@@ -1,0 +1,312 @@
+/*!
+ * Start Bootstrap - Business Casual v5.0.11 (https://startbootstrap.com/theme/business-casual)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-business-casual/blob/master/LICENSE)
+ */
+
+body {
+    font-family: 'Lora';
+    background-image: linear-gradient(rgba(231, 232, 242, 0.932), rgba(76, 124, 220, 0.76)), url("../img/Criptomonedas-en-2021.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway';
+}
+
+#title-bar {
+    margin-top: 50px;
+    background: #ffffff;
+    padding: 30px;
+    padding-left: 70px;
+    color: rgba(22, 39, 193, 0.932);
+    font-weight: 900;
+    font-size: 50px;
+}
+
+p {
+    line-height: 1.75;
+}
+
+.text-faded {
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.site-heading {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    line-height: 1;
+    font-family: 'Raleway';
+}
+
+.site-heading .site-heading-upper {
+    display: block;
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.site-heading .site-heading-lower {
+    font-size: 80px;
+    font-weight: 100;
+    line-height: 4rem;
+}
+
+.page-section {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section-heading {
+    text-transform: uppercase;
+}
+
+.section-heading .section-heading-upper {
+    display: block;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.section-heading .section-heading-lower {
+    display: block;
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.bg-faded {
+    background-color: rgba(208, 223, 230, 0.85);
+}
+
+#mainNav {
+    background-color: rgba(9, 9, 37, 0.9);
+    font-family: 'Raleway';
+}
+
+#mainNav .navbar-brand {
+    color: #a4b494;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.7);
+    font-weight: 800;
+}
+
+#mainNav .navbar-nav .nav-item.active .nav-link {
+    color: #e6a756;
+}
+
+@media (min-width: 992px) {
+    #mainNav .navbar-nav .nav-item .nav-link {
+        font-size: 14.4px;
+    }
+    #mainNav .navbar-nav .nav-item .nav-link:hover {
+        color: rgba(255, 255, 255, 0.4);
+    }
+    #mainNav .navbar-nav .nav-item.active .nav-link:hover {
+        color: #e6a756;
+    }
+}
+
+
+/* Implementacion de un submenu desplegable para el boton Servicios */
+
+.sub-menu {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    list-style: none;
+    position: absolute;
+    background: rgba(53, 212, 204, 0.9);
+    width: 180px;
+    display: none;
+    z-index: 1;
+}
+
+.menu-desplegable {
+    display: block;
+    padding: 15px;
+    color: aliceblue;
+}
+
+.nav-item:hover .sub-menu {
+    display: block;
+}
+
+.menu-desplegable:hover {
+    text-decoration: none;
+    color: #e6a756;
+}
+
+
+/* Fin del submenu */
+
+.btn-xl {
+    font-weight: 700;
+    font-size: 12.8px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.intro {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+    .intro .intro-img {
+        width: 75%;
+        float: right;
+    }
+    .intro .intro-text {
+        left: 0;
+        width: 60%;
+        margin-top: 48px;
+        position: absolute;
+    }
+    .intro .intro-text .intro-button {
+        width: 100%;
+        left: 0;
+        position: absolute;
+        bottom: -32px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .intro .intro-text {
+        width: 45%;
+    }
+}
+
+.cta {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: rgba(15, 83, 100, 0.9);
+}
+
+.cta .cta-inner {
+    position: relative;
+    padding: 48px;
+    margin: 8px;
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+.cta .cta-inner:before {
+    border-radius: 8px;
+    content: '';
+    position: absolute;
+    top: -8px;
+    bottom: -8px;
+    left: -8px;
+    right: -8px;
+    border: 4px solid rgba(255, 255, 255, 0.85);
+    z-index: -1;
+}
+
+@media (min-width: 992px) {
+    .about-heading .about-heading-img {
+        position: relative;
+        z-index: 0;
+    }
+    .about-heading .about-heading-content {
+        margin-top: -80px;
+        position: relative;
+        z-index: 1;
+    }
+    .mision .vision .valores-corporativos {
+        margin-top: 20px;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 992px) {
+    .product-item .product-item-title {
+        position: relative;
+        z-index: 1;
+        margin-bottom: -48px;
+    }
+    .product-item .product-item-img {
+        position: relative;
+        z-index: 0;
+        max-width: 60vw;
+    }
+    .product-item .product-item-description {
+        position: relative;
+        z-index: 1;
+        margin-top: -48px;
+        max-width: 50vw;
+    }
+}
+
+.list-hours {
+    font-size: 14.4px;
+}
+
+.list-hours .list-hours-item {
+    border-bottom: 1px solid rgba(230, 167, 86, 0.5);
+    padding-bottom: 4px;
+    margin-bottom: 16px;
+    font-style: italic;
+}
+
+@media (min-width: 992px) {
+    .list-hours {
+        width: 50%;
+        font-size: 17.6px;
+    }
+}
+
+.address strong {
+    font-size: 19.2px;
+}
+
+.footer {
+    background-color: rgba(9, 9, 37, 0.9);
+}
+
+.text-primary {
+    color: #e6a756 !important;
+}
+
+.bg-primary {
+    background-color: #227094 !important;
+}
+
+.btn {
+    box-shadow: 0px 3px 3px 0px rgba(33, 37, 41, 0.1);
+}
+
+.btn-primary {
+    background-color: rgb(9, 9, 37, 0.9);
+    border-color: rgb(9, 9, 37, 0.9);
+}
+
+.btn-servicios {
+    padding-top: 20px;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+    background-color: #e6a756;
+    border-color: #e6a756;
+    color: #000000;
+}
+
+.font-weight-light {
+    font-weight: 100 !important;
+}
+
+.lista-contacto {
+    list-style: none;
+}

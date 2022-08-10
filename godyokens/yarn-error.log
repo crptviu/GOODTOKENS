@@ -1,0 +1,27 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\Yarn\bin\yarn.js add global server
+
+PATH: 
+  C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Yarn\bin\;C:\Program Files\nodejs\;C:\Users\DannyJoseG\AppData\Local\Microsoft\WindowsApps;;C:\Users\DannyJoseG\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\DannyJoseG\AppData\Local\Yarn\bin;C:\Users\DannyJoseG\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.16.0
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: connect ETIMEDOUT 104.16.24.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
